@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",   // "NodeNext", which typically means Node.js with support for ECMAScript modules.
+        "moduleResolution": "NodeNext",
+        "baseUrl": "src", //"src", indicating that TypeScript should look for modules starting from the "src" directory.
+        "outDir": "dist",// The generated JavaScript files will be placed in the "dist" directory.
+        "sourceMap": true,
+        "noImplicitAny": true,
+
+    },
+    "include": ["src/**/*"],// it include all the folder inside the source file 
+}
